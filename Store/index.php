@@ -12,6 +12,8 @@ require_once './models/Student.php';
 
 // Route
 $act = $_GET['act'] ?? '/';
+var_dump($_GET['act']);die();
+
 
 // Để bảo bảo tính chất chỉ gọi 1 hàm Controller để xử lý request thì mình sử dụng match
 
